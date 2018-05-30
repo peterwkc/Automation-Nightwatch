@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="7">
+
+  <testsuite name="debtor_details"
+    errors="0" failures="0" hostname="" id="" package="debtor_details" skipped="0"
+    tests="7" time="30.67" timestamp="Tue, 06 Feb 2018 07:12:53 GMT">
+  
+    <testcase name="Login" classname="debtor_details" time="15.09" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Debtor Page" classname="debtor_details" time="5.075" assertions="0">
+    </testcase>
+  
+    <testcase name="Debtor Details" classname="debtor_details" time="2.038" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Case Details" classname="debtor_details" time="2.034" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Collector History" classname="debtor_details" time="1.144" assertions="0">
+    </testcase>
+  
+    <testcase name="Logout" classname="debtor_details" time="4.742" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Tear Down" classname="debtor_details" time="0.5450" assertions="0">
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

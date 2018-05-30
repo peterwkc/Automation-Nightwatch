@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="4"
+            failures="1"
+            tests="8">
+
+  <testsuite name="contact_details"
+    errors="4" failures="1" hostname="" id="" package="contact_details" skipped="0"
+    tests="8" time="46.82" timestamp="Tue, 06 Feb 2018 07:19:55 GMT">
+  
+    <testcase name="Login" classname="contact_details" time="14.72" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Debtor Page" classname="contact_details" time="5.076" assertions="0">
+    </testcase>
+  
+    <testcase name="Contact Us Tab" classname="contact_details" time="4.110" assertions="0">
+    </testcase>
+  
+    <testcase name="Edit Contact" classname="contact_details" time="4.096" assertions="0">
+    </testcase>
+  
+    <testcase name="Delete Contact" classname="contact_details" time="2.035" assertions="0">
+    </testcase>
+  
+    <testcase name="Add Contact Invalid" classname="contact_details" time="11.52" assertions="1">  <failure message="Add Contact Us Validation Failed">    at Object.Add Contact Invalid (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\contact_details.js:101:17)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Logout" classname="contact_details" time="4.895" assertions="1">
+
+    
+    </testcase>
+  
+    <testcase name="Tear Down" classname="contact_details" time="0.3650" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;//*[@id=&#34;ContactList&#34;]/div[1]/ul/li[2]/a/div/div&#34; using: xpath
+    at Object.Contact Us Tab (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\contact_details.js:46:14)
+    at Module.call (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;//*[@id=&#34;contactdetails_4&#34;]/div[1]/button[1]&#34; using: xpath
+    at Object.Edit Contact (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\contact_details.js:60:10)
+    at Module.call (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;/html/body/div[16]/div/div[10]/button[2]&#34; using: xpath
+    at Object.Delete Contact (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\contact_details.js:67:10)
+    at Module.call (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;/html/body/div[16]/div/div[10]/button[1]&#34; using: xpath
+    at Object.Delete Contact (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\contact_details.js:68:10)
+    at Module.call (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

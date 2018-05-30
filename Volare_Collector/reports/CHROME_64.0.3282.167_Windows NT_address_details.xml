@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="5"
+            failures="2"
+            tests="6">
+
+  <testsuite name="address_details"
+    errors="5" failures="2" hostname="" id="" package="address_details" skipped="0"
+    tests="6" time="30.68" timestamp="Thu, 22 Feb 2018 08:26:40 GMT">
+  
+    <testcase name="Login" classname="address_details" time="14.65" assertions="3">
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Debtor Page" classname="address_details" time="5.106" assertions="0">
+    </testcase>
+  
+    <testcase name="Address Detail" classname="address_details" time="2.140" assertions="1">  <failure message="Expected element &lt;//*[@id=&#34;addressdetails_1&#34;]/div[1]/div&gt; text to contain: &#34;Address Details&#34; - element was not found">    at Object.Address Detail (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\address_details.js:48:21)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Delete Address" classname="address_details" time="4.200" assertions="0">
+    </testcase>
+  
+    <testcase name="Logout" classname="address_details" time="4.050" assertions="1">  <failure message="Logout successful">    at Object.Logout (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\address_details.js:70:21)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+    <testcase name="Tear Down" classname="address_details" time="0.5340" assertions="0">
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;//*[@id=&#34;AddressList&#34;]/div[1]/ul/li/a/div/div[2]/p[1]&#34; using: xpath
+    at Object.Address Detail (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\address_details.js:46:14)
+    at Module.call (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;//*[@id=&#34;AddressList&#34;]/div[1]/ul/li[2]/a/div/div[2]&#34; using: xpath
+    at Object.Delete Address (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\address_details.js:55:14)
+    at Module.call (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;  //*[@id=&#34;deleteAddressContactbtn&#34;]&#34; using: xpath
+    at Object.Delete Address (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\address_details.js:56:14)
+    at Module.call (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;/html/body/div[14]/div/div[10]/button[1]&#34; using: xpath
+    at Object.Delete Address (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\address_details.js:57:14)
+    at Module.call (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+ERROR: Unable to locate element: &#34;//*[@id=&#34;logout&#34;]&#34; using: xpath
+    at Object.Logout (C:\Users\Peter Wong\Documents\Nightwatch\Volare_Collector\address_details.js:67:14)
+    at Module.call (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\module.js:62:34)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\lib\runner\testcase.js:70:29
+    at _fulfilled (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:834:54)
+    at self.promiseDispatch.done (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:863:30)
+    at Promise.promise.promiseDispatch (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:796:13)
+    at C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:556:49
+    at runSingle (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:137:13)
+    at flush (C:\Users\Peter Wong\AppData\Roaming\npm\node_modules\nightwatch\node_modules\q\q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>
